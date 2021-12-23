@@ -1,6 +1,8 @@
 package com.HyperSync.hypersync;
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable {
     private String firstname,lastname,phone,email,id,admin;
 
     public Employee(){};

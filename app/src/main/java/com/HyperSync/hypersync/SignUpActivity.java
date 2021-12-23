@@ -54,7 +54,7 @@ public class SignUpActivity extends AppCompatActivity {
                 String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
                 FirebaseDatabase db = FirebaseDatabase.getInstance();
                 DatabaseReference ref = db.getReference("Emails").child(b64email);
-                Email email2 = new Email(email,"44444","ABCDE","true");
+                Email email2 = new Email(email,"44444","ABCDEF","true");
                 ref.setValue(email2);
 
                 if (password.equals(repassword)) {

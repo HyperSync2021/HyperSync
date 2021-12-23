@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/activity_chat_detail.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/chat_adapter_layout.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/fragment_chats.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/sample_sender.xml" value="0.25" />
+        <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/sample_show_user.xml" value="0.25" />
         <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync2/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/rajat/AndroidStudioProjects/HyperSync2/app/src/main/res/layout/activity_sign_up_admin.xml" value="0.25" />
+        <entry key="..\:/Users/yashc/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/activity_home_page.xml" value="0.3378623188405797" />
+        <entry key="..\:/Users/yashc/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/fragment_employee.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/yashc/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/fragment_project.xml" value="0.17582417582417584" />
+        <entry key="..\:/Users/yashc/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/projectrv_layout.xml" value="0.25" />
+        <entry key="..\:/Users/yashc/AndroidStudioProjects/HyperSync-main/app/src/main/res/layout/recyclerview_layout.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/yashc/AndroidStudioProjects/HyperSync-main/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/drawable/cardborder.xml" value="0.24259259259259258" />
         <entry key="app/src/main/res/layout/activity_admin_tool.xml" value="0.28802083333333334" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.1" />

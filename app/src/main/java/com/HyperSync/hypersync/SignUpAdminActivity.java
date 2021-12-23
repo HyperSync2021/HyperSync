@@ -54,6 +54,7 @@ public class SignUpAdminActivity extends AppCompatActivity {
                 Company query = new Company(firstname,lastname,userEmail,userPhone,CompContact,GST,designation,CompAddress);
 
                 ref.child(GST).setValue(query);
+                Toast.makeText(getApplicationContext(), "Thank You, Our team will contact you", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(SignUpAdminActivity.this,Recorded.class);
                 startActivity(intent);

@@ -34,6 +34,7 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/chat_page"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -42,6 +43,7 @@
                 android:padding="5dp"
                 app:srcCompat="@drawable/chat"
                 app:tint="#464646" />
+
         </LinearLayout>
 
     </androidx.appcompat.widget.Toolbar>

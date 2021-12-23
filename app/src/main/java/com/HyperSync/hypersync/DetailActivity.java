@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -47,6 +48,7 @@ public class DetailActivity extends AppCompatActivity {
                 String email = getIntent().getStringExtra("email");
                 String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
 
+
                 FirebaseDatabase db = FirebaseDatabase.getInstance();
                 DatabaseReference ref1 = db.getReference("Emails").child(b64email);
                 ref1.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -70,6 +72,7 @@ public class DetailActivity extends AppCompatActivity {
 
                         Intent intent = new Intent(DetailActivity.this, HomePage.class);
                         intent.putExtra("uID",uID);
+                        intent.putExtra("email",email);
                         startActivity(intent);
 
                     }
