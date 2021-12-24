@@ -95,12 +95,7 @@ public class ChatDetailActivity extends AppCompatActivity {
                 database.getReference("Data").child("ABCDEF").child("Chats").child(senderRoom).push().setValue(model).addOnSuccessListener(new OnSuccessListener<Void>() {
                   @Override
                   public void onSuccess(Void unused) {
-                      database.getReference().child("chats").child(receiverRoom).push().setValue(model).addOnSuccessListener(new OnSuccessListener<Void>() {
-                          @Override
-                          public void onSuccess(Void unused) {
-
-                          }
-                      });
+                      database.getReference("Data").child("ABCDEF").child("Chats").child(receiverRoom).push().setValue(model);
                   }
               });
             }

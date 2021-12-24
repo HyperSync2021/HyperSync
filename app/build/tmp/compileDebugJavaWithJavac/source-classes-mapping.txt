@@ -56,13 +56,8 @@ com/HyperSync/hypersync/ui/adminTool/EmployeeRVAdapter.java
  com.HyperSync.hypersync.ui.adminTool.EmployeeRVAdapter$ViewHolder
 com/HyperSync/hypersync/ui/attendance/AttendanceViewModel.java
  com.HyperSync.hypersync.ui.attendance.AttendanceViewModel
-com/HyperSync/hypersync/ui/Chat/ChatDetailActivity.java
- com.HyperSync.hypersync.ui.Chat.ChatDetailActivity
- com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$1
- com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$2
- com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$3
- com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$3$1
- com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$3$1$1
+com/HyperSync/hypersync/databinding/FragmentHomeBinding.java
+ com.HyperSync.hypersync.databinding.FragmentHomeBinding
 com/HyperSync/hypersync/SignInActivity.java
  com.HyperSync.hypersync.SignInActivity
  com.HyperSync.hypersync.SignInActivity$1
@@ -75,9 +70,8 @@ com/HyperSync/hypersync/ui/project/ProjectRVadapter.java
  com.HyperSync.hypersync.ui.project.ProjectRVadapter
  com.HyperSync.hypersync.ui.project.ProjectRVadapter$ItemClickListener
  com.HyperSync.hypersync.ui.project.ProjectRVadapter$ViewHolder
-com/HyperSync/hypersync/ui/Chat/ChatFragment.java
- com.HyperSync.hypersync.ui.Chat.ChatFragment
- com.HyperSync.hypersync.ui.Chat.ChatFragment$1
+com/HyperSync/hypersync/Email.java
+ com.HyperSync.hypersync.Email
 com/HyperSync/hypersync/ui/adminTool/WorkersData.java
  com.HyperSync.hypersync.ui.adminTool.WorkersData
 com/HyperSync/hypersync/ui/Chat/Models/MessageModel.java
@@ -180,11 +174,8 @@ com/HyperSync/hypersync/ui/adminTool/AdminTool.java
 com/HyperSync/hypersync/ui/profile/ProfileFragment.java
  com.HyperSync.hypersync.ui.profile.ProfileFragment
  com.HyperSync.hypersync.ui.profile.ProfileFragment$1
-com/HyperSync/hypersync/ui/Chat/Adapter/UsersAdapter.java
- com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter
- com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter$1
- com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter$2
- com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter$ViewHolder
+com/HyperSync/hypersync/Company.java
+ com.HyperSync.hypersync.Company
 com/HyperSync/hypersync/databinding/SampleRecieverBinding.java
  com.HyperSync.hypersync.databinding.SampleRecieverBinding
 com/HyperSync/hypersync/databinding/ActivitySignInBinding.java
@@ -199,9 +190,17 @@ com/HyperSync/hypersync/BuildConfig.java
  com.HyperSync.hypersync.BuildConfig
 com/HyperSync/hypersync/databinding/ActivityRecordedBinding.java
  com.HyperSync.hypersync.databinding.ActivityRecordedBinding
-com/HyperSync/hypersync/databinding/FragmentHomeBinding.java
- com.HyperSync.hypersync.databinding.FragmentHomeBinding
-com/HyperSync/hypersync/Email.java
- com.HyperSync.hypersync.Email
-com/HyperSync/hypersync/Company.java
- com.HyperSync.hypersync.Company
+com/HyperSync/hypersync/ui/Chat/Adapter/UsersAdapter.java
+ com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter
+ com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter$1
+ com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter$2
+ com.HyperSync.hypersync.ui.Chat.Adapter.UsersAdapter$ViewHolder
+com/HyperSync/hypersync/ui/Chat/ChatFragment.java
+ com.HyperSync.hypersync.ui.Chat.ChatFragment
+ com.HyperSync.hypersync.ui.Chat.ChatFragment$1
+com/HyperSync/hypersync/ui/Chat/ChatDetailActivity.java
+ com.HyperSync.hypersync.ui.Chat.ChatDetailActivity
+ com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$1
+ com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$2
+ com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$3
+ com.HyperSync.hypersync.ui.Chat.ChatDetailActivity$3$1
