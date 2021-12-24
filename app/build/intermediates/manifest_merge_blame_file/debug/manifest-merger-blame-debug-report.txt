@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+8-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+9-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rajat\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
@@ -27,129 +27,129 @@
 15-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\rajat\.gradle\caches\transforms-3\bbeeee8c4e65a6c4d232ce69b2944cc0\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
 16
 17    <application
-17-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:5:5-67:19
+17-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:5:5-67:19
 18        android:allowBackup="true"
-18-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.7.0] C:\Users\rajat\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/icon"
-21-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:7:9-36
+21-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:7:9-36
 22        android:label="@string/app_name"
-22-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:8:9-41
+22-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:8:9-41
 23        android:roundIcon="@mipmap/icon"
-23-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:9:9-41
+23-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:9:9-41
 24        android:supportsRtl="true"
-24-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:10:9-35
+24-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:10:9-35
 25        android:testOnly="true"
 26        android:theme="@style/Theme.HyperSync" >
-26-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:11:9-47
+26-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:11:9-47
 27        <activity
-27-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:12:9-15:41
+27-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:12:9-15:41
 28            android:name="com.HyperSync.hypersync.ui.adminTool.AdminTool"
-28-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:13:13-74
+28-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:13:13-74
 29            android:exported="false"
-29-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:14:13-37
+29-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:14:13-37
 30            android:label="Admin Tool" />
-30-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:15:13-39
+30-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:15:13-39
 31        <activity
-31-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:16:9-18:40
+31-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:16:9-18:40
 32            android:name="com.HyperSync.hypersync.TermsConditions"
-32-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:17:13-67
+32-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:17:13-67
 33            android:exported="false" />
-33-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:18:13-37
+33-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:18:13-37
 34        <activity
-34-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:19:9-22:64
+34-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:19:9-22:64
 35            android:name="com.HyperSync.hypersync.HomePage"
-35-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:20:13-60
+35-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:20:13-60
 36            android:exported="false"
-36-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:21:13-37
+36-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:21:13-37
 37            android:label="@string/title_activity_home_page" />
-37-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:22:13-61
+37-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:22:13-61
 38        <activity
-38-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:23:9-26:53
+38-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:23:9-26:53
 39            android:name="com.HyperSync.hypersync.Recorded"
-39-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:24:13-60
+39-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:24:13-60
 40            android:exported="false"
-40-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:25:13-37
+40-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:25:13-37
 41            android:label="Information Collected" />
-41-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:26:13-50
+41-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:26:13-50
 42        <activity
-42-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:27:9-30:48
+42-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:27:9-30:48
 43            android:name="com.HyperSync.hypersync.SignUpAdminActivity"
-43-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:28:13-71
+43-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:28:13-71
 44            android:exported="false"
-44-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:29:13-37
+44-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:29:13-37
 45            android:label="Register Company" />
-45-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:30:13-45
+45-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:30:13-45
 46        <activity
-46-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:31:9-34:38
+46-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:31:9-34:38
 47            android:name="com.HyperSync.hypersync.DetailActivity"
-47-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:32:13-66
+47-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:32:13-66
 48            android:exported="false"
-48-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:33:13-37
+48-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:33:13-37
 49            android:label="Detail" />
-49-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:34:13-35
+49-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:34:13-35
 50        <activity
-50-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:35:9-37:38
+50-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:35:9-37:38
 51            android:name="com.HyperSync.hypersync.ui.Chat.MainActivity"
-51-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:36:13-72
+51-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:36:13-72
 52            android:exported="true" />
-52-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:37:13-36
+52-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:37:13-36
 53        <activity
-53-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:39:9-42:44
+53-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:39:9-42:44
 54            android:name="com.HyperSync.hypersync.OTPActivity"
-54-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:40:13-63
+54-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:40:13-63
 55            android:exported="false"
-55-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:41:13-37
+55-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:41:13-37
 56            android:label="Verification" />
-56-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:42:13-41
+56-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:42:13-41
 57        <activity
-57-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:43:9-46:39
+57-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:43:9-46:39
 58            android:name="com.HyperSync.hypersync.SignUpActivity"
-58-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:44:13-66
+58-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:44:13-66
 59            android:exported="false"
-59-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:45:13-37
+59-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:45:13-37
 60            android:label="Sign Up" />
-60-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:46:13-36
+60-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:46:13-36
 61        <activity
-61-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:47:9-50:39
+61-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:47:9-50:39
 62            android:name="com.HyperSync.hypersync.SignInActivity"
-62-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:48:13-66
+62-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:48:13-66
 63            android:exported="false"
-63-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:49:13-37
+63-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:49:13-37
 64            android:label="Sign In" />
-64-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:50:13-36
+64-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:50:13-36
 65        <activity
-65-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:51:9-53:40
+65-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:51:9-53:40
 66            android:name="com.HyperSync.hypersync.GettingStarted"
-66-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:52:13-66
+66-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:52:13-66
 67            android:exported="false" />
-67-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:53:13-37
+67-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:53:13-37
 68        <activity
-68-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:54:9-62:20
+68-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:54:9-62:20
 69            android:name="com.HyperSync.hypersync.SplashScreen"
-69-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:55:13-64
+69-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:55:13-64
 70            android:exported="true" >
-70-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:56:13-36
+70-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:56:13-36
 71            <intent-filter>
-71-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:57:13-61:29
+71-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:57:13-61:29
 72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:58:17-69
-72-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:58:25-66
+72-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:58:17-69
+72-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:58:25-66
 73
 74                <category android:name="android.intent.category.LAUNCHER" />
-74-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:60:17-77
-74-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:60:27-74
+74-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:60:17-77
+74-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:60:27-74
 75            </intent-filter>
 76        </activity>
 77
 78        <meta-data
-78-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:64:9-66:57
+78-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:64:9-66:57
 79            android:name="preloaded_fonts"
-79-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:65:13-43
+79-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:65:13-43
 80            android:resource="@array/preloaded_fonts" />
-80-->C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:66:13-54
+80-->C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:66:13-54
 81
 82        <activity
 82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rajat\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20

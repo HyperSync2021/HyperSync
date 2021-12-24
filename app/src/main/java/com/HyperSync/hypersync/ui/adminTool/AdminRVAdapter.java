@@ -37,7 +37,6 @@ public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHold
         WorkersData employee = mData.get(position);
         holder.myText1.setText(employee.mGmail);
         holder.myText2.setText(employee.mId);
-        holder.myText3.setText(employee.mDesignation);
 
     }
 
@@ -51,13 +50,12 @@ public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHold
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView myText1, myText2, myText3;
+        TextView myText1, myText2;
 
         ViewHolder(View itemView) {
             super(itemView);
             myText1 = itemView.findViewById(R.id.tvgmail);
             myText2 = itemView.findViewById(R.id.tvID);
-            myText3 = itemView.findViewById(R.id.tvDesignation);
             itemView.setOnClickListener(this);
         }
 

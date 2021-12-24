@@ -59,7 +59,7 @@ public class AdminFragment extends Fragment {
         addAnAdminBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment();
+                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment(true);
                 fragment.show(getChildFragmentManager(), "dialog");
 
             }
@@ -68,11 +68,11 @@ public class AdminFragment extends Fragment {
 
     public List<WorkersData> adminData(){
         ArrayList<WorkersData> currentAdmin = new ArrayList<>();
-        currentAdmin.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
-        currentAdmin.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
-        currentAdmin.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
-        currentAdmin.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
-        currentAdmin.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
+//        currentAdmin.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
+//        currentAdmin.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
+//        currentAdmin.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
+//        currentAdmin.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
+//        currentAdmin.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
 
 
         return currentAdmin;

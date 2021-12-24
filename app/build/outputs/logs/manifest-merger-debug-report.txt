@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\rajat\.gradle\caches\transforms-3\f10faeb32219776ce9423c17d4f938c4\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\rajat\.gradle\caches\transforms-3\e146d79a02da236d44613d8261a873d0\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\rajat\.gradle\caches\transforms-3\589b32396052d18877318a856258023a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -86,25 +86,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rajat\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\rajat\.gradle\caches\transforms-3\3a5a5d9934e2c57dd8d5c8a079d2e2b4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rajat\.gradle\caches\transforms-3\71c8ff44e1ba645a496aae932ef9a637\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rajat\.gradle\caches\transforms-3\d66993e727816c8ff7896b7937150dab\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:1-69:12
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:1-69:12
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:5:5-67:19
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:5:5-67:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\rajat\.gradle\caches\transforms-3\589b32396052d18877318a856258023a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\rajat\.gradle\caches\transforms-3\589b32396052d18877318a856258023a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\rajat\.gradle\caches\transforms-3\28e3a813f938e7c91d7b2d09f3ddc212\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
@@ -166,125 +166,125 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\rajat\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\rajat\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:7:9-36
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:7:9-36
 	android:allowBackup
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:11:9-47
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:11:9-47
 activity#com.HyperSync.hypersync.ui.adminTool.AdminTool
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:12:9-15:41
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:12:9-15:41
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:15:13-39
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:15:13-39
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:13:13-74
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:13:13-74
 activity#com.HyperSync.hypersync.TermsConditions
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:16:9-18:40
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:18:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:17:13-67
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:17:13-67
 activity#com.HyperSync.hypersync.HomePage
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:19:9-22:64
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:19:9-22:64
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:22:13-61
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:22:13-61
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:20:13-60
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:20:13-60
 activity#com.HyperSync.hypersync.Recorded
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:23:9-26:53
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:23:9-26:53
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:26:13-50
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:24:13-60
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:24:13-60
 activity#com.HyperSync.hypersync.SignUpAdminActivity
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:27:9-30:48
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:27:9-30:48
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:30:13-45
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:28:13-71
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:28:13-71
 activity#com.HyperSync.hypersync.DetailActivity
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:31:9-34:38
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:31:9-34:38
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:34:13-35
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:34:13-35
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:32:13-66
 activity#com.HyperSync.hypersync.ui.Chat.MainActivity
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:35:9-37:38
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:35:9-37:38
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:36:13-72
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:36:13-72
 activity#com.HyperSync.hypersync.OTPActivity
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:39:9-42:44
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:39:9-42:44
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:42:13-41
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:42:13-41
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:40:13-63
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:40:13-63
 activity#com.HyperSync.hypersync.SignUpActivity
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:43:9-46:39
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:43:9-46:39
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:46:13-36
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:46:13-36
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:44:13-66
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:44:13-66
 activity#com.HyperSync.hypersync.SignInActivity
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:47:9-50:39
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:47:9-50:39
 	android:label
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:50:13-36
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:48:13-66
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:48:13-66
 activity#com.HyperSync.hypersync.GettingStarted
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:51:9-53:40
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:51:9-53:40
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:52:13-66
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:52:13-66
 activity#com.HyperSync.hypersync.SplashScreen
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:54:9-62:20
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:54:9-62:20
 	android:exported
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:56:13-36
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:55:13-64
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:55:13-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:57:13-61:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:58:17-69
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:58:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:60:17-77
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:60:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:64:9-66:57
+ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:64:9-66:57
 	android:resource
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:66:13-54
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:66:13-54
 	android:name
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml:65:13-43
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml:65:13-43
 uses-sdk
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\rajat\.gradle\caches\transforms-3\f10faeb32219776ce9423c17d4f938c4\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\rajat\.gradle\caches\transforms-3\f10faeb32219776ce9423c17d4f938c4\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\rajat\.gradle\caches\transforms-3\e146d79a02da236d44613d8261a873d0\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -449,16 +449,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rajat\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rajat\.gradle\caches\transforms-3\71c8ff44e1ba645a496aae932ef9a637\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rajat\.gradle\caches\transforms-3\d66993e727816c8ff7896b7937150dab\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rajat\.gradle\caches\transforms-3\d66993e727816c8ff7896b7937150dab\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync-main\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rajat\AndroidStudioProjects\HyperSync\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\rajat\.gradle\caches\transforms-3\3e8c8d897276edeaee0f27d0b3e470fe\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\rajat\.gradle\caches\transforms-3\faded8ed388d6fa0264133ae8def9abf\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67

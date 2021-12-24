@@ -43,13 +43,12 @@ public class ChatFragment extends Fragment {
         binding.ChatRecyclerView.setAdapter(adapter);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
-        binding.ChatRecyclerView.setLayoutManager(layoutManager);
-        //String a ="j";
-       //Users user = new Users(a,a,a,a,"44444f44444",a);
-//
-//        database.getReference().child("Users").child("44444f44444").setValue(user);
 
-        database.getReference().child("Users").addValueEventListener(new ValueEventListener() {
+        Users user = new Users("a","a","a","A","A","A");
+
+        database.getReference("Data").child("ABCDE").child("Employee").child("ggg").setValue(user);
+
+        database.getReference("Data").child("ABCDEF").child("Employee").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 

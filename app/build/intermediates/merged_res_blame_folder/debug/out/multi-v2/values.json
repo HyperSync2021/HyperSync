@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajat\\.gradle\\caches\\transforms-3\\6a5769b2be17f0e6d939077808dd649b\\transformed\\jetified-appcompat-resources-1.4.0\\res\\values\\values.xml",
@@ -112,25 +112,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "235"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "20",
-                        "endColumns": "12",
-                        "endOffsets": "3847"
-                    }
-                },
-                {
                     "source": "C:\\Users\\rajat\\.gradle\\caches\\transforms-3\\b96f3b45b228c148d0169392fcfc0cfa\\transformed\\media-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,5,6,7,8,10,11,12,13,14",
@@ -145,6 +126,42 @@
                         "startOffsets": "34188,62967,63020,63073,63126,255970,256146,256268,256530,256725",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "34272,63015,63068,63121,63174,256031,256263,256324,256591,256787"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\values\\font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,1,12,3,4,5,6,9,7,10,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "63,16,626,119,165,223,306,462,368,518,412",
+                        "endColumns": "55,46,69,45,57,82,61,55,43,49,49",
+                        "endOffsets": "114,58,691,160,218,301,363,513,407,563,457"
+                    },
+                    "to": {
+                        "startLines": "1241,1242,1280,1348,1350,1351,1352,1353,1354,1355,1356",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "74732,74788,79361,90181,90298,90356,90439,90501,90557,90601,90651",
+                        "endColumns": "55,46,69,45,57,82,61,55,43,49,49",
+                        "endOffsets": "74783,74830,79426,90222,90351,90434,90496,90552,90596,90646,90696"
                     }
                 },
                 {
@@ -201,7 +218,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -215,25 +232,6 @@
                         "startOffsets": "78112,78724,78847,78929,79033,79142,79262,90052",
                         "endColumns": "143,122,81,103,108,119,98,75",
                         "endOffsets": "78251,78842,78924,79028,79137,79257,79356,90123"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -254,22 +252,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
+                        "startOffsets": "55",
+                        "endLines": "6",
                         "endColumns": "12",
-                        "endOffsets": "823"
+                        "endOffsets": "235"
                     },
                     "to": {
-                        "startLines": "4018",
+                        "startLines": "16",
                         "startColumns": "4",
-                        "startOffsets": "267554",
-                        "endLines": "4030",
+                        "startOffsets": "3667",
+                        "endLines": "20",
                         "endColumns": "12",
-                        "endOffsets": "268275"
+                        "endOffsets": "3847"
                     }
                 },
                 {
@@ -404,24 +402,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "2,1,12,3,4,5,6,9,7,10,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "63,16,626,119,165,223,306,462,368,518,412",
-                        "endColumns": "55,46,69,45,57,82,61,55,43,49,49",
-                        "endOffsets": "114,58,691,160,218,301,363,513,407,563,457"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "823"
                     },
                     "to": {
-                        "startLines": "1241,1242,1280,1348,1350,1351,1352,1353,1354,1355,1356",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "74732,74788,79361,90181,90298,90356,90439,90501,90557,90601,90651",
-                        "endColumns": "55,46,69,45,57,82,61,55,43,49,49",
-                        "endOffsets": "74783,74830,79426,90222,90351,90434,90496,90552,90596,90646,90696"
+                        "startLines": "4018",
+                        "startColumns": "4",
+                        "startOffsets": "267554",
+                        "endLines": "4030",
+                        "endColumns": "12",
+                        "endOffsets": "268275"
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "7,10,11,2,3,4,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -438,7 +438,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync-main\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

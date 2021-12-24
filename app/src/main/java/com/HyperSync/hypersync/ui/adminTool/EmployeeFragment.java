@@ -63,7 +63,7 @@ public class EmployeeFragment extends Fragment {
         addAnEmployeeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment();
+                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment(false);
                 fragment.show(getChildFragmentManager(), "dialog");
 
             }
@@ -73,11 +73,11 @@ public class EmployeeFragment extends Fragment {
 
     public List<WorkersData> employeeData(){
         ArrayList<WorkersData> currentEmployee = new ArrayList<>();
-        currentEmployee.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
-        currentEmployee.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
-        currentEmployee.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
-        currentEmployee.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
-        currentEmployee.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
+//        currentEmployee.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
+//        currentEmployee.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
+//        currentEmployee.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
+//        currentEmployee.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
+//        currentEmployee.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
 
 
         return currentEmployee;
