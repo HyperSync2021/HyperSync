@@ -65,7 +65,7 @@ public class ChatDetailActivity extends AppCompatActivity {
         final String senderRoom = senderId + receiveId;
         final String receiverRoom = receiveId + senderId;
 
-        database.getReference().child("chats").child(senderRoom).addValueEventListener(new ValueEventListener() {
+        database.getReference("Data").child("ABCDEF").child("Chats").child(senderRoom).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 messageModels.clear();
@@ -92,7 +92,7 @@ public class ChatDetailActivity extends AppCompatActivity {
               model.setTimestamp(new Date().getTime());
               binding.etMessage.setText("");
 
-              database.getReference().child("chats").child(senderRoom).push().setValue(model).addOnSuccessListener(new OnSuccessListener<Void>() {
+                database.getReference("Data").child("ABCDEF").child("Chats").child(senderRoom).push().setValue(model).addOnSuccessListener(new OnSuccessListener<Void>() {
                   @Override
                   public void onSuccess(Void unused) {
                       database.getReference().child("chats").child(receiverRoom).push().setValue(model).addOnSuccessListener(new OnSuccessListener<Void>() {

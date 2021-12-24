@@ -35,7 +35,7 @@ public class ChatFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         binding = FragmentChatsBinding.inflate(inflater, container, false);
 
         database = FirebaseDatabase.getInstance();
@@ -43,10 +43,7 @@ public class ChatFragment extends Fragment {
         binding.ChatRecyclerView.setAdapter(adapter);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
-
-        Users user = new Users("a","a","a","A","A","A");
-
-        database.getReference("Data").child("ABCDE").child("Employee").child("ggg").setValue(user);
+        binding.ChatRecyclerView.setLayoutManager(layoutManager);
 
         database.getReference("Data").child("ABCDEF").child("Employee").addValueEventListener(new ValueEventListener() {
             @Override

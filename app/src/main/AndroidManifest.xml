@@ -35,6 +35,9 @@
         <activity
             android:name="com.HyperSync.hypersync.ui.Chat.MainActivity"
             android:exported="true"/>
+        <activity
+            android:name="com.HyperSync.hypersync.ui.Chat.ChatDetailActivity"
+            android:exported="false" />
 
         <activity
             android:name="com.HyperSync.hypersync.OTPActivity"

@@ -75,8 +75,9 @@ com/HyperSync/hypersync/ui/project/ProjectRVadapter.java
  com.HyperSync.hypersync.ui.project.ProjectRVadapter
  com.HyperSync.hypersync.ui.project.ProjectRVadapter$ItemClickListener
  com.HyperSync.hypersync.ui.project.ProjectRVadapter$ViewHolder
-com/HyperSync/hypersync/Company.java
- com.HyperSync.hypersync.Company
+com/HyperSync/hypersync/ui/Chat/ChatFragment.java
+ com.HyperSync.hypersync.ui.Chat.ChatFragment
+ com.HyperSync.hypersync.ui.Chat.ChatFragment$1
 com/HyperSync/hypersync/ui/adminTool/WorkersData.java
  com.HyperSync.hypersync.ui.adminTool.WorkersData
 com/HyperSync/hypersync/ui/Chat/Models/MessageModel.java
@@ -107,8 +108,8 @@ com/HyperSync/hypersync/databinding/FragmentPollDialogBinding.java
  com.HyperSync.hypersync.databinding.FragmentPollDialogBinding
 com/HyperSync/hypersync/databinding/ActivityTermsConditionsBinding.java
  com.HyperSync.hypersync.databinding.ActivityTermsConditionsBinding
-com/HyperSync/hypersync/Email.java
- com.HyperSync.hypersync.Email
+com/HyperSync/hypersync/ui/Chat/Adapter/FragmentAdapter.java
+ com.HyperSync.hypersync.ui.Chat.Adapter.FragmentAdapter
 com/HyperSync/hypersync/databinding/SampleShowUserBinding.java
  com.HyperSync.hypersync.databinding.SampleShowUserBinding
 com/HyperSync/hypersync/databinding/RecyclerviewLayoutBinding.java
@@ -200,8 +201,7 @@ com/HyperSync/hypersync/databinding/ActivityRecordedBinding.java
  com.HyperSync.hypersync.databinding.ActivityRecordedBinding
 com/HyperSync/hypersync/databinding/FragmentHomeBinding.java
  com.HyperSync.hypersync.databinding.FragmentHomeBinding
-com/HyperSync/hypersync/ui/Chat/ChatFragment.java
- com.HyperSync.hypersync.ui.Chat.ChatFragment
- com.HyperSync.hypersync.ui.Chat.ChatFragment$1
-com/HyperSync/hypersync/ui/Chat/Adapter/FragmentAdapter.java
- com.HyperSync.hypersync.ui.Chat.Adapter.FragmentAdapter
+com/HyperSync/hypersync/Email.java
+ com.HyperSync.hypersync.Email
+com/HyperSync/hypersync/Company.java
+ com.HyperSync.hypersync.Company
