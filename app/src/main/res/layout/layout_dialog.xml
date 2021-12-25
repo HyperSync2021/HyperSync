@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/editText_username"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="G-mail"
         android:importantForAutofill="no"
@@ -22,13 +22,6 @@
         android:importantForAutofill="no"
         android:inputType="text" />
 
-    <EditText
-        android:id="@+id/editText_designation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Designation"
-        android:importantForAutofill="no"
-        android:inputType="text" />
 
     <Button
         android:id="@+id/BtnSubmit"

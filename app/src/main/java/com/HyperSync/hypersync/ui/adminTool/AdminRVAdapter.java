@@ -10,17 +10,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.HyperSync.hypersync.Worker;
 import com.HyperSync.hypersync.R;
 
 import java.util.List;
 
 public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHolder> {
 
-    private final List<WorkersData> mData;
+    private final List<Worker> mData;
     private final LayoutInflater mInflater;
     private AdminRVAdapter.ItemClickListener mClickListener;
 
-    AdminRVAdapter(Context context, List<WorkersData> data) {
+    AdminRVAdapter(Context context, List<Worker> data) {
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;
     }
@@ -34,13 +35,12 @@ public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(AdminRVAdapter.ViewHolder holder, int position) {
-        WorkersData employee = mData.get(position);
-        holder.myText1.setText(employee.mGmail);
-        holder.myText2.setText(employee.mId);
+        Worker employee = mData.get(position);
+        holder.myText1.setText(employee.getEmail());
+        holder.myText2.setText(employee.getId());
 
     }
 
-    // total number of rows
     @Override
     public int getItemCount() {
         return mData.size();
@@ -65,7 +65,7 @@ public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHold
         }
     }
 
-    WorkersData getItem(int id) {
+    Worker getItem(int id) {
         return mData.get(id);
     }
 

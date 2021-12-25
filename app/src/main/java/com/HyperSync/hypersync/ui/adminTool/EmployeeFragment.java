@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.HyperSync.hypersync.Worker;
 import com.HyperSync.hypersync.R;
 
 import java.util.ArrayList;
@@ -63,22 +64,15 @@ public class EmployeeFragment extends Fragment {
         addAnEmployeeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment(false);
+                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment("Employee");
                 fragment.show(getChildFragmentManager(), "dialog");
-
             }
         });
     }
 
 
-    public List<WorkersData> employeeData(){
-        ArrayList<WorkersData> currentEmployee = new ArrayList<>();
-//        currentEmployee.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
-//        currentEmployee.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
-//        currentEmployee.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
-//        currentEmployee.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
-//        currentEmployee.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
-
+    public List<Worker> employeeData(){
+        ArrayList<Worker> currentEmployee = new ArrayList<>();
 
         return currentEmployee;
     }

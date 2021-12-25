@@ -2179,7 +2179,6 @@ int id easeInOut 0x7f0a00c6
 int id easeOut 0x7f0a00c7
 int id east 0x7f0a00c8
 int id editText_ID 0x7f0a00c9
-int id editText_designation 0x7f0a00ca
 int id editText_username 0x7f0a00cb
 int id edit_query 0x7f0a00cc
 int id elastic 0x7f0a00cd
@@ -2561,7 +2560,6 @@ int id transition_scene_layoutid_cache 0x7f0a0244
 int id transition_transform 0x7f0a0245
 int id triangle 0x7f0a0246
 int id tvAlreadyRegister 0x7f0a0247
-int id tvDesignation 0x7f0a0248
 int id tvID 0x7f0a0249
 int id tvRegisterCompany 0x7f0a024a
 int id tvgmail 0x7f0a024b

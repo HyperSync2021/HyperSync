@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\raw_login.json.flat",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\raw\\login.json"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_chat_theme_1000.xml.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\drawable\\round_back_blue_10.xml"
     },
     {
-        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up_admin.xml.flat",
-        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_sign_up_admin.xml"
-    },
-    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up_admin.xml.flat",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_sign_up_admin.xml"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_btn.xml.flat",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\raw_terms.json.flat",
-        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\raw\\terms.json"
-    },
-    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\raw_terms.json.flat",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\raw\\terms.json"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\merged_res\\debug\\layout_recyclerview_layout.xml.flat",

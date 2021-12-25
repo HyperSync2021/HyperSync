@@ -12,12 +12,12 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_employee.xml"
     },
     {
-        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recyclerview_layout.xml",
-        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\recyclerview_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recyclerview_layout.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\recyclerview_layout.xml"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recorded.xml",
-        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_recorded.xml"
-    },
-    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_admin.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recorded.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_recorded.xml"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_in.xml",

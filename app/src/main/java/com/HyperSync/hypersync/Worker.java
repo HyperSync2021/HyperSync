@@ -1,16 +1,16 @@
 package com.HyperSync.hypersync;
 
-public class Email {
-    private String email,id,company,admin;
+public class Worker {
+    private String email,id,company,worker;
 
-    public Email() {
+    public Worker() {
     }
 
-    public Email(String email, String id, String company,String admin) {
+    public Worker(String email, String id, String company, String worker) {
         this.email = email;
         this.id = id;
         this.company = company;
-        this.admin = admin;
+        this.worker = worker;
     }
 
     public String getEmail() { return email; }
@@ -19,5 +19,5 @@ public class Email {
 
     public String getCompany() { return company; }
 
-    public String getAdmin() { return admin; }
+    public String getWorker() { return worker; }
 }

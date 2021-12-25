@@ -5,7 +5,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.HyperSync.hypersync.ui.Chat.MainActivity;
@@ -14,15 +13,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.HyperSync.hypersync.databinding.ActivityHomePageBinding;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -84,9 +80,9 @@ public class HomePage extends AppCompatActivity {
         ref1.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Email email2 = snapshot.getValue(Email.class);
+                Worker worker2 = snapshot.getValue(Worker.class);
 
-                String company = email2.getCompany();
+                String company = worker2.getCompany();
 
                 DatabaseReference ref = db.getReference("Data").child(company).child("Employee").child(uID);
 

@@ -52,10 +52,10 @@ public class SignUpActivity extends AppCompatActivity {
                 String password = Password.getText().toString();
                 String repassword = RePassword.getText().toString();
                 String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
+
                 FirebaseDatabase db = FirebaseDatabase.getInstance();
                 DatabaseReference ref = db.getReference("Emails").child(b64email);
-                Email email2 = new Email(email,"44444","ABCDEF","true");
-                ref.setValue(email2);
+
 
                 if (password.equals(repassword)) {
 
@@ -63,8 +63,9 @@ public class SignUpActivity extends AppCompatActivity {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists()) {
-                                Email email1 = snapshot.getValue(Email.class);
-                                String company = email1.getCompany();
+                                Worker worker1 = snapshot.getValue(Worker.class);
+                                String company = worker1.getCompany();
+
                                 Intent intent = new Intent(SignUpActivity.this,OTPActivity.class);
                                 intent.putExtra("email",email);
                                 intent.putExtra("password",password);

@@ -14,7 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.HyperSync.hypersync.Worker;
 import com.HyperSync.hypersync.R;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +26,7 @@ public class AdminFragment extends Fragment {
 
     private Button addAnAdminBtn;
     RecyclerView recyclerView;
+    private FirebaseDatabase db;
 
 
     @Override
@@ -42,7 +45,7 @@ public class AdminFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         // 3. create an adapter
-        AdminRVAdapter mAdapter = new AdminRVAdapter(getContext(),adminData());
+        AdminRVAdapter mAdapter = new AdminRVAdapter(getContext(), adminData());
         // 4. set adapter
         recyclerView.setAdapter(mAdapter);
         // 5. set item animator to DefaultAnimator
@@ -59,22 +62,23 @@ public class AdminFragment extends Fragment {
         addAnAdminBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment(true);
+                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment("Admin");
                 fragment.show(getChildFragmentManager(), "dialog");
 
             }
         });
     }
 
-    public List<WorkersData> adminData(){
-        ArrayList<WorkersData> currentAdmin = new ArrayList<>();
+    public List<Worker> adminData() {
+        ArrayList<Worker> currentAdmin = new ArrayList<>();
+
 //        currentAdmin.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
 //        currentAdmin.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
 //        currentAdmin.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
 //        currentAdmin.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
 //        currentAdmin.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
 
-
         return currentAdmin;
     }
 }
+

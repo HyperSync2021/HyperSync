@@ -2180,7 +2180,6 @@ id easeInOut
 id easeOut
 id east
 id editText_ID
-id editText_designation
 id editText_username
 id edit_query
 id elastic
@@ -2562,7 +2561,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvAlreadyRegister
-id tvDesignation
 id tvID
 id tvRegisterCompany
 id tvgmail
