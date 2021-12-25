@@ -17,13 +17,17 @@ import java.util.List;
 
 public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHolder> {
 
-    private final List<Worker> mData;
+    private List<Worker> mData;
     private final LayoutInflater mInflater;
     private AdminRVAdapter.ItemClickListener mClickListener;
 
     AdminRVAdapter(Context context, List<Worker> data) {
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;
+    }
+
+    public void updateData(List<Worker> list) {
+        mData = list;
     }
 
     @NonNull
@@ -37,7 +41,7 @@ public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHold
     public void onBindViewHolder(AdminRVAdapter.ViewHolder holder, int position) {
         Worker employee = mData.get(position);
         holder.myText1.setText(employee.getEmail());
-        holder.myText2.setText(employee.getId());
+        holder.myText2.setText(employee.getName());
 
     }
 

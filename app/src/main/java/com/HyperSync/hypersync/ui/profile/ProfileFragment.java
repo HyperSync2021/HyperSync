@@ -16,6 +16,8 @@ import android.widget.TextView;
 
 import com.HyperSync.hypersync.databinding.FragmentProfileBinding;
 import com.HyperSync.hypersync.ui.adminTool.AdminTool;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class ProfileFragment extends Fragment {
 

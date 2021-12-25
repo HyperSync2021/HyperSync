@@ -6,6 +6,9 @@ public class Worker {
     private String company;
     private String category;
 
+    public Worker() {
+    }
+
     public Worker(String email, String name, String company, String category) {
         this.email = email;
         this.name = name;

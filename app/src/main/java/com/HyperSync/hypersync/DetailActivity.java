@@ -55,7 +55,7 @@ public class DetailActivity extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         Worker worker1 = snapshot.getValue(Worker.class);
                         String company = worker1.getCompany();
-                        String id = worker1.getId();
+                        String id = worker1.getName();
                         String worker = worker1.getName();
 
                         String firstname = Firstname.getText().toString();

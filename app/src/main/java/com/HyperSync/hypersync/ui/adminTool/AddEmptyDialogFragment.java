@@ -12,21 +12,34 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.DialogFragment;
 
-import com.HyperSync.hypersync.Worker;
+import com.HyperSync.hypersync.Constants.Category;
 import com.HyperSync.hypersync.R;
+import com.HyperSync.hypersync.model.Worker;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
 public class AddEmptyDialogFragment extends DialogFragment {
-    String worker;
-    EditText Email,Id;
+    String employeeCategory;
+    EditText Email, name;
     FirebaseDatabase db;
     Button btn;
 
-    public AddEmptyDialogFragment(String worker) {
-        this.worker = worker;
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Bundle args = getArguments();
+        if (args != null) {
+            employeeCategory = args.getString(Category.KEY);
+        }
+
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        getDialog().getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
     }
 
     @Nullable
@@ -35,7 +48,7 @@ public class AddEmptyDialogFragment extends DialogFragment {
         View view = inflater.inflate(R.layout.layout_dialog, container, false);
 
         Email = view.findViewById(R.id.editText_username);
-        Id = view.findViewById(R.id.editText_ID);
+        name = view.findViewById(R.id.editTextName);
         btn = view.findViewById(R.id.BtnSubmit);
 
 
@@ -44,14 +57,15 @@ public class AddEmptyDialogFragment extends DialogFragment {
             @Override
             public void onClick(View v) {
                 String email = Email.getText().toString();
-                String id = Id.getText().toString();
-                String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
+                String name = AddEmptyDialogFragment.this.name.getText().toString();
+//                String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
 
-                Worker worker3 = new Worker(email,id,"ABCD",worker);
+                // TODO: Change worker values. They are not correct.
+                Worker worker3 = new Worker(email, name, "ABCD", employeeCategory);
 
                 db = FirebaseDatabase.getInstance();
 
-                db.getReference("Emails").child(b64email).setValue(worker3);
+                db.getReference("Employees").push().setValue(worker3);
 
                 getDialog().dismiss();
             }

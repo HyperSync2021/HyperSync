@@ -14,9 +14,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.HyperSync.hypersync.Constants.Category;
+import com.HyperSync.hypersync.Constants.DatabaseConstants;
+import com.HyperSync.hypersync.Employee;
 import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +34,7 @@ public class AdminFragment extends Fragment {
     private Button addAnAdminBtn;
     RecyclerView recyclerView;
     private FirebaseDatabase db;
+    private AdminRVAdapter mAdapter;
 
 
     @Override
@@ -45,7 +53,7 @@ public class AdminFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         // 3. create an adapter
-        AdminRVAdapter mAdapter = new AdminRVAdapter(getContext(), adminData());
+        mAdapter = new AdminRVAdapter(getContext(), new ArrayList<>());
         // 4. set adapter
         recyclerView.setAdapter(mAdapter);
         // 5. set item animator to DefaultAnimator
@@ -62,23 +70,37 @@ public class AdminFragment extends Fragment {
         addAnAdminBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment("Admin");
+
+                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment();
+                Bundle args = new Bundle();
+                args.putString(Category.KEY, Category.ADMIN);
+                fragment.setArguments(args);
                 fragment.show(getChildFragmentManager(), "dialog");
 
             }
         });
+        getAdminData();
     }
 
-    public List<Worker> adminData() {
-        ArrayList<Worker> currentAdmin = new ArrayList<>();
+    private void getAdminData() {
+        FirebaseDatabase.getInstance().getReference(DatabaseConstants.EMPLOYEE)
+                .addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        ArrayList<Worker> admins = new ArrayList<>();
+                        for (DataSnapshot object : snapshot.getChildren()) {
+                            admins.add(object.getValue(Worker.class));
+                        }
+                        System.out.println("Size: "+admins.size());
+                        mAdapter.updateData(admins);
+                        mAdapter.notifyDataSetChanged();
+                    }
 
-//        currentAdmin.add(new WorkersData("yashchandil20@gmail.com", "yash01", "Employee"));
-//        currentAdmin.add(new WorkersData("jay@gmail.com", "jayo2", "Employee"));
-//        currentAdmin.add(new WorkersData("jenish@gmail.com", "jenish03", "Employee"));
-//        currentAdmin.add(new WorkersData("rajat@gmail.com", "rajat04", "Employee"));
-//        currentAdmin.add(new WorkersData("aditya@gmail.com", "aditya05", "Employee"));
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
 
-        return currentAdmin;
+                    }
+                });
     }
 }
 

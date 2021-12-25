@@ -42,7 +42,7 @@ public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.Vi
     public void onBindViewHolder(ViewHolder holder, int position) {
         Worker employee = mData.get(position);
         holder.myText1.setText(employee.getEmail());
-        holder.myText2.setText(employee.getId());
+        holder.myText2.setText(employee.getName());
 
     }
 

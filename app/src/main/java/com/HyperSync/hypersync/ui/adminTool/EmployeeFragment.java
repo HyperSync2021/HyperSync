@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.HyperSync.hypersync.Constants.Category;
 import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.R;
 
@@ -64,7 +65,10 @@ public class EmployeeFragment extends Fragment {
         addAnEmployeeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment("Employee");
+                AddEmptyDialogFragment fragment = new AddEmptyDialogFragment();
+                Bundle args = new Bundle();
+                args.putString(Category.KEY, Category.ADMIN);
+                fragment.setArguments(args);
                 fragment.show(getChildFragmentManager(), "dialog");
             }
         });
