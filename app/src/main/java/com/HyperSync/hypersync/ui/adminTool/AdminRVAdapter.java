@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.HyperSync.hypersync.Worker;
+import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.R;
 
 import java.util.List;

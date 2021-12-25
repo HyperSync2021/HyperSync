@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.ui.Chat.MainActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

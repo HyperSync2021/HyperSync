@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.HyperSync.hypersync.model.Worker;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -55,7 +56,7 @@ public class DetailActivity extends AppCompatActivity {
                         Worker worker1 = snapshot.getValue(Worker.class);
                         String company = worker1.getCompany();
                         String id = worker1.getId();
-                        String worker = worker1.getWorker();
+                        String worker = worker1.getName();
 
                         String firstname = Firstname.getText().toString();
                         String lastname = Lastname.getText().toString();

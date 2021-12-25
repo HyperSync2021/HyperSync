@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.HyperSync.hypersync.Worker;
+import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.R;
 
 import java.util.List;
