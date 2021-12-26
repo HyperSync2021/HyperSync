@@ -40,7 +40,7 @@
             android:exported="false" />
 
         <activity
-            android:name="com.HyperSync.hypersync.OTPActivity"
+            android:name="com.HyperSync.hypersync.Emailverification"
             android:exported="false"
             android:label="Verification" />
         <activity

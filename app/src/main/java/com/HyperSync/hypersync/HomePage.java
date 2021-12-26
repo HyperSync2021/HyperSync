@@ -20,6 +20,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.HyperSync.hypersync.databinding.ActivityHomePageBinding;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -34,6 +35,7 @@ public class HomePage extends AppCompatActivity {
     private ActivityHomePageBinding binding;
     private FirebaseDatabase db ;
     ImageView chat_button;
+    FirebaseAuth mauth;
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
@@ -53,7 +55,8 @@ public class HomePage extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_home_page);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
-        String email = getIntent().getStringExtra("email");
+
+        String email = mauth.getInstance().getCurrentUser().getEmail();
 
         chat_button = findViewById(R.id.chat_page);
 
@@ -73,7 +76,7 @@ public class HomePage extends AppCompatActivity {
     public void Connect(String email){
 
         String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
-        String uID = getIntent().getStringExtra("uID");
+        String uID = mauth.getUid();
 
         db = FirebaseDatabase.getInstance();
         DatabaseReference ref1 = db.getReference("Emails").child(b64email);
@@ -98,7 +101,8 @@ public class HomePage extends AppCompatActivity {
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
                     }
-                });            }
+                });
+            }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
                 Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();

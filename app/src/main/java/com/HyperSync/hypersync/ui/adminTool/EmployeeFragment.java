@@ -15,8 +15,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.HyperSync.hypersync.Constants.Category;
+import com.HyperSync.hypersync.Constants.DatabaseConstants;
+import com.HyperSync.hypersync.Employee;
 import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.R;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +33,7 @@ public class EmployeeFragment extends Fragment {
 
     private Button addAnEmployeeBtn;
     RecyclerView recyclerView;
+    private EmployeeRVAdapter mAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -44,14 +51,13 @@ public class EmployeeFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         // 3. create an adapter
-        EmployeeRVAdapter mAdapter = new EmployeeRVAdapter(getContext(),employeeData());
+        mAdapter = new EmployeeRVAdapter(getContext(),new ArrayList<>());
         // 4. set adapter
         recyclerView.setAdapter(mAdapter);
         // 5. set item animator to DefaultAnimator
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
         addAnEmployeeBtn = view.findViewById(R.id.btnEmployee);
-
 
         return view;
 
@@ -67,18 +73,32 @@ public class EmployeeFragment extends Fragment {
             public void onClick(View v) {
                 AddEmptyDialogFragment fragment = new AddEmptyDialogFragment();
                 Bundle args = new Bundle();
-                args.putString(Category.KEY, Category.ADMIN);
+                args.putString(Category.KEY, Category.EMPLOYEE);
                 fragment.setArguments(args);
                 fragment.show(getChildFragmentManager(), "dialog");
             }
         });
+        getEmployeeData();
     }
 
 
-    public List<Worker> employeeData(){
-        ArrayList<Worker> currentEmployee = new ArrayList<>();
+    private void getEmployeeData() {
+        FirebaseDatabase.getInstance().getReference("Emails").orderByChild("worker").equalTo("employee")
+                .addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        ArrayList<Worker> Employees = new ArrayList<>();
+                        for (DataSnapshot object : snapshot.getChildren()) {
+                            Employees.add(object.getValue(Worker.class));
+                        }
+                        mAdapter.updateData(Employees);
+                        mAdapter.notifyDataSetChanged();
+                    }
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
 
-        return currentEmployee;
+                    }
+                });
     }
 
 

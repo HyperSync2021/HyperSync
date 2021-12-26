@@ -41,7 +41,7 @@ public class AdminRVAdapter extends RecyclerView.Adapter<AdminRVAdapter.ViewHold
     public void onBindViewHolder(AdminRVAdapter.ViewHolder holder, int position) {
         Worker employee = mData.get(position);
         holder.myText1.setText(employee.getEmail());
-        holder.myText2.setText(employee.getName());
+        holder.myText2.setText(employee.getId());
 
     }
 

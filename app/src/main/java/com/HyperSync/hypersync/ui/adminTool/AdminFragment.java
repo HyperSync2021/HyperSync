@@ -83,7 +83,7 @@ public class AdminFragment extends Fragment {
     }
 
     private void getAdminData() {
-        FirebaseDatabase.getInstance().getReference(DatabaseConstants.EMPLOYEE)
+        FirebaseDatabase.getInstance().getReference("Emails").orderByChild("worker").equalTo("admin")
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {

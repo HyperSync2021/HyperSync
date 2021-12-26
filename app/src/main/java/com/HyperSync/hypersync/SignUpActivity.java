@@ -15,6 +15,10 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.HyperSync.hypersync.model.Worker;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -65,13 +69,25 @@ public class SignUpActivity extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists()) {
                                 Worker worker1 = snapshot.getValue(Worker.class);
-                                String company = worker1.getCompany();
+                                FirebaseAuth mauth = FirebaseAuth.getInstance();
 
-                                Intent intent = new Intent(SignUpActivity.this,OTPActivity.class);
-                                intent.putExtra("email",email);
-                                intent.putExtra("password",password);
-                                intent.putExtra("company",company);
-                                startActivity(intent);
+                                mauth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(SignUpActivity.this, new OnCompleteListener<AuthResult>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<AuthResult> task) {
+
+                                        if (task.isSuccessful()) {
+                                            Toast.makeText(getApplicationContext(), "Successful", Toast.LENGTH_SHORT).show();
+                                            mauth.getCurrentUser().sendEmailVerification();
+                                            Intent intent = new Intent(SignUpActivity.this,Emailverification.class);
+                                            startActivity(intent);
+
+                                        } else {
+                                            Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
+                                            Intent intent = new Intent(SignUpActivity.this, SignUpActivity.class);
+                                        }
+                                    }
+                                });
+
                             } else {
                                 Toast.makeText(getApplicationContext(), "Your email is not registered with any organisation !", Toast.LENGTH_SHORT).show();
                             }

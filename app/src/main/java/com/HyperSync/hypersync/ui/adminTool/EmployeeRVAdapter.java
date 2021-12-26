@@ -16,9 +16,7 @@ import java.util.List;
 
 public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.ViewHolder> {
 
-
-
-    private final List<Worker> mData;
+    private List<Worker> mData;
     private final LayoutInflater mInflater;
     private ItemClickListener mClickListener;
 //    private Context context;
@@ -27,6 +25,10 @@ public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.Vi
     EmployeeRVAdapter(Context context, List<Worker> data) {
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;
+    }
+
+    public void updateData(List<Worker> list) {
+        mData = list;
     }
 
     // inflates the row layout from xml when needed
@@ -42,7 +44,7 @@ public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.Vi
     public void onBindViewHolder(ViewHolder holder, int position) {
         Worker employee = mData.get(position);
         holder.myText1.setText(employee.getEmail());
-        holder.myText2.setText(employee.getName());
+        holder.myText2.setText(employee.getId());
 
     }
 

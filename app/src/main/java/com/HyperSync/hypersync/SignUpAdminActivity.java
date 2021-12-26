@@ -51,8 +51,7 @@ public class SignUpAdminActivity extends AppCompatActivity {
                 FirebaseDatabase hypersync = FirebaseDatabase.getInstance();
                 DatabaseReference ref = hypersync.getReference("Company");
 
-                Company company = new Company("xyzcompany@gmail.com", "9999999999", "Address", "1234fgt5678");
-
+                Company company = new Company(firstname,lastname,userEmail,userPhone,CompContact,GST,designation,CompAddress);
                 ref.push().setValue(company);
                 Toast.makeText(getApplicationContext(), "Thank You, Our team will contact you", Toast.LENGTH_SHORT).show();
 

@@ -14,6 +14,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.HyperSync.hypersync.model.Worker;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,6 +28,7 @@ public class DetailActivity extends AppCompatActivity {
 
     Button forward;
     EditText Firstname,Lastname,Phone;
+    FirebaseAuth mauth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +46,7 @@ public class DetailActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View v) {
-                String email = getIntent().getStringExtra("email");
+                String email = mauth.getCurrentUser().getEmail();
                 String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
 
 
@@ -55,13 +57,13 @@ public class DetailActivity extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         Worker worker1 = snapshot.getValue(Worker.class);
                         String company = worker1.getCompany();
-                        String id = worker1.getName();
-                        String worker = worker1.getName();
+                        String id = worker1.getId();
+                        String worker = worker1.getWorker();
 
                         String firstname = Firstname.getText().toString();
                         String lastname = Lastname.getText().toString();
                         String phone = Phone.getText().toString();
-                        String uID = getIntent().getStringExtra("uID");
+                        String uID = mauth.getUid();
 
                         FirebaseDatabase hypersync = FirebaseDatabase.getInstance();
                         DatabaseReference ref = hypersync.getReference("Data");
@@ -70,8 +72,6 @@ public class DetailActivity extends AppCompatActivity {
                         ref.child(company).child("Employee").child(uID).setValue(empl);
 
                         Intent intent = new Intent(DetailActivity.this, HomePage.class);
-                        intent.putExtra("uID",uID);
-                        intent.putExtra("email",email);
                         startActivity(intent);
 
                     }

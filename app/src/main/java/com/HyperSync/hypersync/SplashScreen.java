@@ -27,10 +27,8 @@ public class SplashScreen extends AppCompatActivity {
                 finally {
                     Intent intent;
                     FirebaseAuth mAuth = FirebaseAuth.getInstance();
-                    if(mAuth.getCurrentUser()!=null) {
-                        intent = new Intent(SplashScreen.this, HomePage.class);
-                        intent.putExtra("email", mAuth.getCurrentUser().getEmail());
-                        intent.putExtra("uID",mAuth.getUid());
+                    if (mAuth.getCurrentUser() != null && mAuth.getCurrentUser().isEmailVerified()) {
+                            intent = new Intent(SplashScreen.this, HomePage.class);
                     }
                     else
                         intent = new Intent(SplashScreen.this,GettingStarted.class);

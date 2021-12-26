@@ -22,7 +22,7 @@ import java.util.Base64;
 
 public class AddEmptyDialogFragment extends DialogFragment {
     String employeeCategory;
-    EditText Email, name;
+    EditText Email, id;
     FirebaseDatabase db;
     Button btn;
 
@@ -48,7 +48,7 @@ public class AddEmptyDialogFragment extends DialogFragment {
         View view = inflater.inflate(R.layout.layout_dialog, container, false);
 
         Email = view.findViewById(R.id.editText_username);
-        name = view.findViewById(R.id.editTextName);
+        id = view.findViewById(R.id.editTextName);
         btn = view.findViewById(R.id.BtnSubmit);
 
 
@@ -57,15 +57,14 @@ public class AddEmptyDialogFragment extends DialogFragment {
             @Override
             public void onClick(View v) {
                 String email = Email.getText().toString();
-                String name = AddEmptyDialogFragment.this.name.getText().toString();
-//                String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
+                String id = AddEmptyDialogFragment.this.id.getText().toString();
+                String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
 
-                // TODO: Change worker values. They are not correct.
-                Worker worker3 = new Worker(email, name, "ABCD", employeeCategory);
+                Worker worker3 = new Worker(email, id, "ABCD", employeeCategory);
 
                 db = FirebaseDatabase.getInstance();
 
-                db.getReference("Employees").push().setValue(worker3);
+                db.getReference("Emails").child(b64email).setValue(worker3);
 
                 getDialog().dismiss();
             }

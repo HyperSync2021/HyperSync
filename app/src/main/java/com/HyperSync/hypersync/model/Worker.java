@@ -1,50 +1,23 @@
 package com.HyperSync.hypersync.model;
 
 public class Worker {
-    private String email;
-    private String name;
-    private String company;
-    private String category;
+    private String email,id,company,worker;
 
     public Worker() {
     }
 
-    public Worker(String email, String name, String company, String category) {
+    public Worker(String email, String id, String company, String worker) {
         this.email = email;
-        this.name = name;
+        this.id = id;
         this.company = company;
-        this.category = category;
+        this.worker = worker;
     }
 
-    public String getEmail() {
-        return email;
-    }
+    public String getEmail() { return email; }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    public String getId() { return id; }
 
-    public String getName() {
-        return name;
-    }
+    public String getCompany() { return company; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCompany() {
-        return company;
-    }
-
-    public void setCompany(String company) {
-        this.company = company;
-    }
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
+    public String getWorker() { return worker; }
 }
