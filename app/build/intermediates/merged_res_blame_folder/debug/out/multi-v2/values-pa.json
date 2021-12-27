@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+            "outputFile": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync2\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajat\\.gradle\\caches\\transforms-3\\99fb345143c18c83053fefa4b17998f5\\transformed\\jetified-play-services-base-17.1.0\\res\\values-pa\\values.xml",

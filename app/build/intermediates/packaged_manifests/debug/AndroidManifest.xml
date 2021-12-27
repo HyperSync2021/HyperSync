@@ -48,7 +48,13 @@
             android:exported="false"
             android:label="Detail" />
         <activity
-            android:name="com.HyperSync.hypersync.OTPActivity"
+            android:name="com.HyperSync.hypersync.ui.Chat.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.HyperSync.hypersync.ui.Chat.ChatDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.HyperSync.hypersync.Emailverification"
             android:exported="false"
             android:label="Verification" />
         <activity
@@ -71,9 +77,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.HyperSync.hypersync.MainActivity"
-            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -144,6 +147,10 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.HyperSync.hypersync.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.HyperSync.hypersync.firebaseinitprovider"

@@ -259,6 +259,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1862,6 +1866,10 @@ drawable attendance
 drawable avd_hide_password
 drawable avd_show_password
 drawable back
+drawable back_btn
+drawable back_symbol
+drawable bg_reciver
+drawable bg_sender
 drawable bookmark_unclicked
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1873,6 +1881,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable cardborder
 drawable chat
+drawable chat_profile
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1902,6 +1911,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable holiday
 drawable home
+drawable ic_baseline_arrow_back_ios_24
 drawable ic_clock_black_24dp
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
@@ -1915,6 +1925,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable icon
 drawable like_unclicked
+drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1935,6 +1946,7 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable my_msg_back
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1948,9 +1960,16 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable opo_message_back
 drawable poll
 drawable profile
 drawable project
+drawable round_back_blue_10
+drawable round_back_theme_1000
+drawable round_back_white_10
+drawable round_chat_theme_1000
+drawable round_shape
+drawable send_icon
 drawable suggestion
 drawable test_custom_background
 drawable test_level_drawable
@@ -1962,8 +1981,11 @@ font kalam_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BottonBar
 id BtnSubmit
 id CTRL
+id ChatRecyclerView
+id Discard
 id FUNCTION
 id GetStarted
 id META
@@ -1975,6 +1997,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Username
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2056,6 +2079,7 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id automatic
+id backBtn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2076,6 +2100,7 @@ id btnAdmin
 id btnContinue
 id btnEmployee
 id btnSignIn
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2088,6 +2113,8 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chat_page
+id chattingRecyclerView
 id checkBox
 id checkbox
 id checked
@@ -2154,8 +2181,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editText_ID
-id editText_designation
+id editTextName
 id editText_username
 id edit_query
 id elastic
@@ -2167,8 +2193,8 @@ id enterAlwaysCollapsed
 id etAddress
 id etCompanyContact
 id etEmail
+id etMessage
 id etMobileNumber
-id etOTP
 id etPassword
 id etPasswordAgain
 id etPhoneNumber
@@ -2197,6 +2223,9 @@ id group_divider
 id grouping
 id groups
 id guideline
+id guideline2
+id guideline3
+id guideline4
 id hardware
 id header_title
 id hideable
@@ -2207,6 +2236,7 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id id
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2231,6 +2261,7 @@ id ivBack
 id jumpToEnd
 id jumpToStart
 id labeled
+id lastMessages
 id layer1
 id layout
 id left
@@ -2269,7 +2300,10 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id meMessage
+id meMsgTime
 id media_actions
+id melayout
 id message
 id middle
 id mini
@@ -2332,6 +2366,13 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id oppoMessage
+id oppoMsgTime
+id oppolayout
+id option1
+id option2
+id option3
+id option4
 id outline
 id outward
 id overshoot
@@ -2347,19 +2388,23 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id pollDiscard
+id poll
 id position
+id post
 id postLayout
-id postPoll
 id proceed
 id profile_contactNumber
-id profile_designation
 id profile_email
+id profile_image
 id profile_organization
+id profilepic
 id progress_circular
 id progress_horizontal
+id project_edit
 id radio
 id ratio
+id receiverText
+id receiverTime
 id rectangles
 id recyclerView
 id restart
@@ -2394,6 +2439,9 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id sendBtn
+id senderText
+id senderTime
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2436,6 +2484,7 @@ id submit_area
 id supportScrollUp
 id tabMode
 id tab_layout
+id tablayout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2506,6 +2555,7 @@ id toggle
 id toolbar
 id top
 id topPanel
+id topbar
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2516,7 +2566,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvAlreadyRegister
-id tvDesignation
 id tvID
 id tvRegisterCompany
 id tvgmail
@@ -2529,8 +2578,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userNamelist
 id vertical_only
 id view
+id viewPager
 id view_offset_helper
 id view_pager
 id view_transition
@@ -2619,6 +2670,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_tool
+layout activity_chat_detail
 layout activity_detail
 layout activity_getting_started
 layout activity_home_page
@@ -2633,6 +2685,7 @@ layout activity_terms_conditions
 layout announcement_rv
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout chat_adapter_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2652,6 +2705,8 @@ layout design_text_input_start_icon
 layout fragment_admin
 layout fragment_announcement_dialog
 layout fragment_attendance
+layout fragment_chat
+layout fragment_chats
 layout fragment_employee
 layout fragment_holiday_dialog
 layout fragment_home
@@ -2717,9 +2772,13 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout projectrv_layout
 layout recycler_admin
 layout recycler_employee
 layout recyclerview_layout
+layout sample_reciever
+layout sample_sender
+layout sample_show_user
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2813,7 +2872,9 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string company_name
 string default_web_client_id
+string email_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2883,6 +2944,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string name
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string password_toggle_content_description
@@ -2894,6 +2956,7 @@ string project_id
 string search_menu_title
 string start
 string status_bar_notification_info_overflow
+string submit
 string success
 string success1
 string title_activity_home_page
@@ -3660,6 +3723,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

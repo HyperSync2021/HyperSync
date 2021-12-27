@@ -73,6 +73,7 @@ public class SignInActivity extends AppCompatActivity {
                                     Password.setText("");
 
                                     Intent intent = new Intent(SignInActivity.this, HomePage.class);
+                                    intent.putExtra("email",email);
                                     intent.putExtra("uID",mAuth.getCurrentUser().getUid());
                                     startActivity(intent);
                                 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync2\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rajat\\.gradle\\caches\\transforms-3\\e146d79a02da236d44613d8261a873d0\\transformed\\navigation-ui-2.3.5\\res\\values-ur\\values-ur.xml",

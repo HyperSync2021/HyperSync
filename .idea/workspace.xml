@@ -6,14 +6,49 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c87b2a-f729-4f76-9807-2d21113ce6b3" name="Default Changelist" comment="" />
+    <list default="true" id="7b493ce4-7c0f-423b-86bf-1ce8df0853fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/model/poll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Fragment/AnnouncementDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Fragment/AnnouncementDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Fragment/PollDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Fragment/PollDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/OTPActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/Emailverification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/SignUpAdminActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/SignUpAdminActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/model/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/model/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/Chat/Adapter/UsersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/Chat/Adapter/UsersAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/Chat/ChatDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/Chat/ChatDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/Chat/ChatFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/Chat/ChatFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/AddEmptyDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/AddEmptyDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/AdminFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/AdminFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/AdminRVAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/AdminRVAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/EmployeeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/EmployeeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/EmployeeRVAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/EmployeeRVAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/profile/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/profile/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/project/ProjectFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/project/ProjectFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/project/ProjectRVadapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/project/ProjectRVadapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/project/projectData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/project/projectData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_otpactivity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_otpactivity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_announcement_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_announcement_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_poll_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_poll_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,25 +63,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HyperSync" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HyperSync" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HyperSync" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -57,69 +79,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="22HS692j1o4WHUp6Y9KsZ4hooCb" />
+  <component name="ProjectId" id="22mvuJTs9mjwb26MknZ6G4RKEpD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DEBUGGABLE_DEVICE" value="My_Device_2 [emulator-5554]" />
-    <property name="DEBUGGABLE_PROCESS" value="com.jay.hypersync" />
-    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.jay.hypersync.ui.profile" />
-    </key>
-    <key name="android.template.1434669389">
-      <recent name="com.jay.hypersync" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rajat\AndroidStudioProjects\HyperSync2\app\src\main\java\com\HyperSync\hypersync" />
-      <recent name="C:\Users\rajat\AndroidStudioProjects\HyperSync2" />
-      <recent name="C:\Users\rajat\AndroidStudioProjects\HyperSync2\app" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
-    </key>
-    <key name="android.template.-1529203848">
-      <recent name="com.jay.hypersync" />
-    </key>
-    <key name="android.template.410212515">
-      <recent name="com.jay.hypersync" />
-    </key>
-    <key name="android.template.-219228760">
-      <recent name="com.jay.hypersync" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="gradle signingReport" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="HyperSync.app" />
       <option name="DEPLOY" value="true" />
@@ -178,41 +157,15 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HyperSync [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="signingReport" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.HyperSync [signingReport]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93c87b2a-f729-4f76-9807-2d21113ce6b3" name="Default Changelist" comment="" />
-      <created>1639492842222</created>
+      <changelist id="7b493ce4-7c0f-423b-86bf-1ce8df0853fc" name="Default Changelist" comment="" />
+      <created>1640455798386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1639492842222</updated>
+      <updated>1640455798386</updated>
     </task>
     <servers />
   </component>
@@ -232,8 +185,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/HomePage.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/HyperSync/hypersync/ui/adminTool/EmployeeRVAdapter.java</url>
+          <line>30</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
