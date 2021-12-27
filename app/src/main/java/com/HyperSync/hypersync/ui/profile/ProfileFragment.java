@@ -60,11 +60,11 @@ public class ProfileFragment extends Fragment {
         String json = sh.getString("object", "");
         Employee empl = gson.fromJson(json, Employee.class);
 
-        Name.setText(empl.getUserName());
-        email.setText(empl.getEmail());
-        contact.setText(empl.getPhone());
-        id.setText(empl.getId());
-        organisation.setText(empl.getCompany());
+        Name.setText("Name :"+empl.getUserName());
+        email.setText("Email :"+empl.getEmail());
+        contact.setText("Phone :"+empl.getPhone());
+        id.setText("ID :"+empl.getId());
+        organisation.setText("Organisation :"+empl.getCompany());
 
         if (empl.getWorker().equals("admin")) {
             textView.setText("AdminTool");

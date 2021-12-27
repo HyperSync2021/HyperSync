@@ -16,9 +16,8 @@ com/HyperSync/hypersync/ui/adminTool/AddEmptyDialogFragment.java
  com.HyperSync.hypersync.ui.adminTool.AddEmptyDialogFragment$1
 com/HyperSync/hypersync/databinding/ActivitySignUpAdminBinding.java
  com.HyperSync.hypersync.databinding.ActivitySignUpAdminBinding
-com/HyperSync/hypersync/ui/project/ProjectFragment.java
- com.HyperSync.hypersync.ui.project.ProjectFragment
- com.HyperSync.hypersync.ui.project.ProjectFragment$1
+com/HyperSync/hypersync/model/poll.java
+ com.HyperSync.hypersync.model.poll
 com/HyperSync/hypersync/DetailActivity.java
  com.HyperSync.hypersync.DetailActivity
  com.HyperSync.hypersync.DetailActivity$1
@@ -44,8 +43,8 @@ com/HyperSync/hypersync/databinding/ActivityOtpactivityBinding.java
  com.HyperSync.hypersync.databinding.ActivityOtpactivityBinding
 com/HyperSync/hypersync/databinding/FragmentProfileBinding.java
  com.HyperSync.hypersync.databinding.FragmentProfileBinding
-com/HyperSync/hypersync/model/poll.java
- com.HyperSync.hypersync.model.poll
+com/HyperSync/hypersync/model/Company.java
+ com.HyperSync.hypersync.model.Company
 com/HyperSync/hypersync/Fragment/AnnouncementDialogFragment.java
  com.HyperSync.hypersync.Fragment.AnnouncementDialogFragment
  com.HyperSync.hypersync.Fragment.AnnouncementDialogFragment$1
@@ -74,17 +73,20 @@ com/HyperSync/hypersync/SignInActivity.java
  com.HyperSync.hypersync.SignInActivity$3$1
 com/HyperSync/hypersync/databinding/ActivityDetailBinding.java
  com.HyperSync.hypersync.databinding.ActivityDetailBinding
-com/HyperSync/hypersync/Company.java
- com.HyperSync.hypersync.Company
+com/HyperSync/hypersync/ui/project/ProjectRVadapter.java
+ com.HyperSync.hypersync.ui.project.ProjectRVadapter
+ com.HyperSync.hypersync.ui.project.ProjectRVadapter$ItemClickListener
+ com.HyperSync.hypersync.ui.project.ProjectRVadapter$ViewHolder
 com/HyperSync/hypersync/ui/Chat/ChatFragment.java
  com.HyperSync.hypersync.ui.Chat.ChatFragment
  com.HyperSync.hypersync.ui.Chat.ChatFragment$1
 com/HyperSync/hypersync/ui/Chat/Models/MessageModel.java
  com.HyperSync.hypersync.ui.Chat.Models.MessageModel
-com/HyperSync/hypersync/ui/project/ProjectRVadapter.java
- com.HyperSync.hypersync.ui.project.ProjectRVadapter
- com.HyperSync.hypersync.ui.project.ProjectRVadapter$ItemClickListener
- com.HyperSync.hypersync.ui.project.ProjectRVadapter$ViewHolder
+com/HyperSync/hypersync/Fragment/PollDialogFragment.java
+ com.HyperSync.hypersync.Fragment.PollDialogFragment
+ com.HyperSync.hypersync.Fragment.PollDialogFragment$1
+ com.HyperSync.hypersync.Fragment.PollDialogFragment$2
+ com.HyperSync.hypersync.Fragment.PollDialogFragment$3
 com/HyperSync/hypersync/databinding/FragmentAnnouncementDialogBinding.java
  com.HyperSync.hypersync.databinding.FragmentAnnouncementDialogBinding
 com/HyperSync/hypersync/databinding/ActivityChatDetailBinding.java
@@ -125,16 +127,19 @@ com/HyperSync/hypersync/databinding/FragmentAdminBinding.java
  com.HyperSync.hypersync.databinding.FragmentAdminBinding
 com/HyperSync/hypersync/databinding/ActivityAdminToolBinding.java
  com.HyperSync.hypersync.databinding.ActivityAdminToolBinding
-com/HyperSync/hypersync/ui/project/projectData.java
- com.HyperSync.hypersync.ui.project.projectData
+com/HyperSync/hypersync/ui/home/HomeFragment.java
+ com.HyperSync.hypersync.ui.home.HomeFragment
+ com.HyperSync.hypersync.ui.home.HomeFragment$1
+ com.HyperSync.hypersync.ui.home.HomeFragment$2
+ com.HyperSync.hypersync.ui.home.HomeFragment$3
 com/HyperSync/hypersync/Dataadapter.java
  com.HyperSync.hypersync.Dataadapter
  com.HyperSync.hypersync.Dataadapter$dataholder
 com/HyperSync/hypersync/Emailverification.java
  com.HyperSync.hypersync.Emailverification
  com.HyperSync.hypersync.Emailverification$1
-com/HyperSync/hypersync/databinding/FragmentHomeBinding.java
- com.HyperSync.hypersync.databinding.FragmentHomeBinding
+com/HyperSync/hypersync/ui/project/projectData.java
+ com.HyperSync.hypersync.ui.project.projectData
 com/HyperSync/hypersync/ui/adminTool/EmployeeFragment.java
  com.HyperSync.hypersync.ui.adminTool.EmployeeFragment
  com.HyperSync.hypersync.ui.adminTool.EmployeeFragment$1
@@ -155,8 +160,9 @@ com/HyperSync/hypersync/HomePage.java
  com.HyperSync.hypersync.HomePage$1
  com.HyperSync.hypersync.HomePage$2
  com.HyperSync.hypersync.HomePage$2$1
-com/HyperSync/hypersync/databinding/ActivityRecordedBinding.java
- com.HyperSync.hypersync.databinding.ActivityRecordedBinding
+com/HyperSync/hypersync/ui/project/ProjectFragment.java
+ com.HyperSync.hypersync.ui.project.ProjectFragment
+ com.HyperSync.hypersync.ui.project.ProjectFragment$1
 com/HyperSync/hypersync/SplashScreen.java
  com.HyperSync.hypersync.SplashScreen
  com.HyperSync.hypersync.SplashScreen$1
@@ -207,15 +213,9 @@ com/HyperSync/hypersync/GettingStarted.java
  com.HyperSync.hypersync.GettingStarted$2
 com/HyperSync/hypersync/BuildConfig.java
  com.HyperSync.hypersync.BuildConfig
-com/HyperSync/hypersync/model/Company.java
- com.HyperSync.hypersync.model.Company
-com/HyperSync/hypersync/ui/home/HomeFragment.java
- com.HyperSync.hypersync.ui.home.HomeFragment
- com.HyperSync.hypersync.ui.home.HomeFragment$1
- com.HyperSync.hypersync.ui.home.HomeFragment$2
- com.HyperSync.hypersync.ui.home.HomeFragment$3
-com/HyperSync/hypersync/Fragment/PollDialogFragment.java
- com.HyperSync.hypersync.Fragment.PollDialogFragment
- com.HyperSync.hypersync.Fragment.PollDialogFragment$1
- com.HyperSync.hypersync.Fragment.PollDialogFragment$2
- com.HyperSync.hypersync.Fragment.PollDialogFragment$3
+com/HyperSync/hypersync/databinding/ActivityRecordedBinding.java
+ com.HyperSync.hypersync.databinding.ActivityRecordedBinding
+com/HyperSync/hypersync/databinding/FragmentHomeBinding.java
+ com.HyperSync.hypersync.databinding.FragmentHomeBinding
+com/HyperSync/hypersync/Company.java
+ com.HyperSync.hypersync.Company
