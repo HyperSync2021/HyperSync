@@ -23,19 +23,15 @@ public final class RecyclerEmployeeBinding implements ViewBinding {
   public final CardView cardView;
 
   @NonNull
-  public final TextView tvDesignation;
-
-  @NonNull
   public final TextView tvID;
 
   @NonNull
   public final TextView tvgmail;
 
   private RecyclerEmployeeBinding(@NonNull CardView rootView, @NonNull CardView cardView,
-      @NonNull TextView tvDesignation, @NonNull TextView tvID, @NonNull TextView tvgmail) {
+      @NonNull TextView tvID, @NonNull TextView tvgmail) {
     this.rootView = rootView;
     this.cardView = cardView;
-    this.tvDesignation = tvDesignation;
     this.tvID = tvID;
     this.tvgmail = tvgmail;
   }
@@ -69,12 +65,6 @@ public final class RecyclerEmployeeBinding implements ViewBinding {
     missingId: {
       CardView cardView = (CardView) rootView;
 
-      id = R.id.tvDesignation;
-      TextView tvDesignation = ViewBindings.findChildViewById(rootView, id);
-      if (tvDesignation == null) {
-        break missingId;
-      }
-
       id = R.id.tvID;
       TextView tvID = ViewBindings.findChildViewById(rootView, id);
       if (tvID == null) {
@@ -87,8 +77,7 @@ public final class RecyclerEmployeeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RecyclerEmployeeBinding((CardView) rootView, cardView, tvDesignation, tvID,
-          tvgmail);
+      return new RecyclerEmployeeBinding((CardView) rootView, cardView, tvID, tvgmail);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,6 +4,7 @@ package com.HyperSync.hypersync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,6 +22,9 @@ public final class ActivityHomePageBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageView chatPage;
+
+  @NonNull
   public final RelativeLayout container;
 
   @NonNull
@@ -29,10 +33,11 @@ public final class ActivityHomePageBinding implements ViewBinding {
   @NonNull
   public final Toolbar toolbar;
 
-  private ActivityHomePageBinding(@NonNull RelativeLayout rootView,
+  private ActivityHomePageBinding(@NonNull RelativeLayout rootView, @NonNull ImageView chatPage,
       @NonNull RelativeLayout container, @NonNull BottomNavigationView navView,
       @NonNull Toolbar toolbar) {
     this.rootView = rootView;
+    this.chatPage = chatPage;
     this.container = container;
     this.navView = navView;
     this.toolbar = toolbar;
@@ -65,6 +70,12 @@ public final class ActivityHomePageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.chat_page;
+      ImageView chatPage = ViewBindings.findChildViewById(rootView, id);
+      if (chatPage == null) {
+        break missingId;
+      }
+
       RelativeLayout container = (RelativeLayout) rootView;
 
       id = R.id.nav_view;
@@ -79,7 +90,8 @@ public final class ActivityHomePageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomePageBinding((RelativeLayout) rootView, container, navView, toolbar);
+      return new ActivityHomePageBinding((RelativeLayout) rootView, chatPage, container, navView,
+          toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

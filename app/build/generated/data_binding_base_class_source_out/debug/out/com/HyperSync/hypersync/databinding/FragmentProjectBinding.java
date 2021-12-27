@@ -4,33 +4,33 @@ package com.HyperSync.hypersync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.HyperSync.hypersync.R;
-import com.airbnb.lottie.LottieAnimationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentProjectBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final LottieAnimationView animationView;
+  public final RecyclerView recyclerView;
 
-  private FragmentProjectBinding(@NonNull LinearLayout rootView,
-      @NonNull LottieAnimationView animationView) {
+  private FragmentProjectBinding(@NonNull RelativeLayout rootView,
+      @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
-    this.animationView = animationView;
+    this.recyclerView = recyclerView;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -55,13 +55,13 @@ public final class FragmentProjectBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.animation_view;
-      LottieAnimationView animationView = ViewBindings.findChildViewById(rootView, id);
-      if (animationView == null) {
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
         break missingId;
       }
 
-      return new FragmentProjectBinding((LinearLayout) rootView, animationView);
+      return new FragmentProjectBinding((RelativeLayout) rootView, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -9,23 +9,26 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.HyperSync.hypersync.model.Worker;
 import com.HyperSync.hypersync.R;
 
 import java.util.List;
 
 public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.ViewHolder> {
 
-
-
-    private final List<WorkersData> mData;
+    private List<Worker> mData;
     private final LayoutInflater mInflater;
     private ItemClickListener mClickListener;
 //    private Context context;
 
     // data is passed into the constructor
-    EmployeeRVAdapter(Context context, List<WorkersData> data) {
+    EmployeeRVAdapter(Context context, List<Worker> data) {
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;
+    }
+
+    public void updateData(List<Worker> list) {
+        mData = list;
     }
 
     // inflates the row layout from xml when needed
@@ -39,10 +42,9 @@ public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.Vi
     // binds the data to the TextView in each row
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        WorkersData employee = mData.get(position);
-        holder.myText1.setText(employee.mGmail);
-        holder.myText2.setText(employee.mId);
-        holder.myText3.setText(employee.mDesignation);
+        Worker employee = mData.get(position);
+        holder.myText1.setText(employee.getEmail());
+        holder.myText2.setText(employee.getId());
 
     }
 
@@ -56,13 +58,12 @@ public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.Vi
     // stores and recycles views as they are scrolled off screen
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView myText1, myText2, myText3;
+        TextView myText1, myText2;
 
         ViewHolder(View itemView) {
             super(itemView);
             myText1 = itemView.findViewById(R.id.tvgmail);
             myText2 = itemView.findViewById(R.id.tvID);
-            myText3 = itemView.findViewById(R.id.tvDesignation);
             itemView.setOnClickListener(this);
         }
 
@@ -73,7 +74,7 @@ public class EmployeeRVAdapter extends RecyclerView.Adapter<EmployeeRVAdapter.Vi
     }
 
     // convenience method for getting data at click position
-    WorkersData getItem(int id) {
+    Worker getItem(int id) {
         return mData.get(id);
     }
 

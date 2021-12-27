@@ -24,21 +24,16 @@ public final class LayoutDialogBinding implements ViewBinding {
   public final Button BtnSubmit;
 
   @NonNull
-  public final EditText editTextDesignation;
-
-  @NonNull
-  public final EditText editTextID;
+  public final EditText editTextName;
 
   @NonNull
   public final EditText editTextUsername;
 
   private LayoutDialogBinding(@NonNull LinearLayout rootView, @NonNull Button BtnSubmit,
-      @NonNull EditText editTextDesignation, @NonNull EditText editTextID,
-      @NonNull EditText editTextUsername) {
+      @NonNull EditText editTextName, @NonNull EditText editTextUsername) {
     this.rootView = rootView;
     this.BtnSubmit = BtnSubmit;
-    this.editTextDesignation = editTextDesignation;
-    this.editTextID = editTextID;
+    this.editTextName = editTextName;
     this.editTextUsername = editTextUsername;
   }
 
@@ -75,15 +70,9 @@ public final class LayoutDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editText_designation;
-      EditText editTextDesignation = ViewBindings.findChildViewById(rootView, id);
-      if (editTextDesignation == null) {
-        break missingId;
-      }
-
-      id = R.id.editText_ID;
-      EditText editTextID = ViewBindings.findChildViewById(rootView, id);
-      if (editTextID == null) {
+      id = R.id.editTextName;
+      EditText editTextName = ViewBindings.findChildViewById(rootView, id);
+      if (editTextName == null) {
         break missingId;
       }
 
@@ -93,8 +82,8 @@ public final class LayoutDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LayoutDialogBinding((LinearLayout) rootView, BtnSubmit, editTextDesignation,
-          editTextID, editTextUsername);
+      return new LayoutDialogBinding((LinearLayout) rootView, BtnSubmit, editTextName,
+          editTextUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

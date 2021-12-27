@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -26,26 +25,18 @@ public final class ActivityOtpactivityBinding implements ViewBinding {
   public final LottieAnimationView animationView;
 
   @NonNull
-  public final EditText etOTP;
-
-  @NonNull
   public final Button proceed;
 
   @NonNull
   public final TextView textInfo;
 
-  @NonNull
-  public final TextView tvRegisterCompany;
-
   private ActivityOtpactivityBinding(@NonNull LinearLayout rootView,
-      @NonNull LottieAnimationView animationView, @NonNull EditText etOTP, @NonNull Button proceed,
-      @NonNull TextView textInfo, @NonNull TextView tvRegisterCompany) {
+      @NonNull LottieAnimationView animationView, @NonNull Button proceed,
+      @NonNull TextView textInfo) {
     this.rootView = rootView;
     this.animationView = animationView;
-    this.etOTP = etOTP;
     this.proceed = proceed;
     this.textInfo = textInfo;
-    this.tvRegisterCompany = tvRegisterCompany;
   }
 
   @Override
@@ -81,12 +72,6 @@ public final class ActivityOtpactivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.etOTP;
-      EditText etOTP = ViewBindings.findChildViewById(rootView, id);
-      if (etOTP == null) {
-        break missingId;
-      }
-
       id = R.id.proceed;
       Button proceed = ViewBindings.findChildViewById(rootView, id);
       if (proceed == null) {
@@ -99,14 +84,8 @@ public final class ActivityOtpactivityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvRegisterCompany;
-      TextView tvRegisterCompany = ViewBindings.findChildViewById(rootView, id);
-      if (tvRegisterCompany == null) {
-        break missingId;
-      }
-
-      return new ActivityOtpactivityBinding((LinearLayout) rootView, animationView, etOTP, proceed,
-          textInfo, tvRegisterCompany);
+      return new ActivityOtpactivityBinding((LinearLayout) rootView, animationView, proceed,
+          textInfo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

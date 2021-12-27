@@ -16,6 +16,10 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\recyclerview_layout.xml"
     },
     {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_detail.xml"
     },
@@ -44,6 +48,10 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_holiday_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\projectrv_layout.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\projectrv_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -60,8 +68,16 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\layout_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_sender.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\sample_sender.xml"
+    },
+    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_project.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chat_adapter_layout.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\chat_adapter_layout.xml"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_terms_conditions.xml",
@@ -70,6 +86,10 @@
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home_page.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chats.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_chats.xml"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_attendance.xml",
@@ -88,6 +108,10 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat_detail.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_chat_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_getting_started.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_getting_started.xml"
     },
@@ -96,8 +120,16 @@
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\activity_sign_up_admin.xml"
     },
     {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_show_user.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\sample_show_user.xml"
+    },
+    {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_employee.xml",
         "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\recycler_employee.xml"
+    },
+    {
+        "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_reciever.xml",
+        "source": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\src\\main\\res\\layout\\sample_reciever.xml"
     },
     {
         "merged": "C:\\Users\\rajat\\AndroidStudioProjects\\HyperSync\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_announcement_dialog.xml",

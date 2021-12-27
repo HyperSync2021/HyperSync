@@ -4,6 +4,7 @@ package com.HyperSync.hypersync.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,10 +24,13 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView adminTool;
 
   @NonNull
-  public final TextView profileContactNumber;
+  public final Button button;
 
   @NonNull
-  public final TextView profileDesignation;
+  public final TextView id;
+
+  @NonNull
+  public final TextView profileContactNumber;
 
   @NonNull
   public final TextView profileEmail;
@@ -38,13 +42,14 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView textView10;
 
   private FragmentProfileBinding(@NonNull LinearLayout rootView, @NonNull TextView adminTool,
-      @NonNull TextView profileContactNumber, @NonNull TextView profileDesignation,
+      @NonNull Button button, @NonNull TextView id, @NonNull TextView profileContactNumber,
       @NonNull TextView profileEmail, @NonNull TextView profileOrganization,
       @NonNull TextView textView10) {
     this.rootView = rootView;
     this.adminTool = adminTool;
+    this.button = button;
+    this.id = id;
     this.profileContactNumber = profileContactNumber;
-    this.profileDesignation = profileDesignation;
     this.profileEmail = profileEmail;
     this.profileOrganization = profileOrganization;
     this.textView10 = textView10;
@@ -83,15 +88,21 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.profile_contactNumber;
-      TextView profileContactNumber = ViewBindings.findChildViewById(rootView, id);
-      if (profileContactNumber == null) {
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
         break missingId;
       }
 
-      id = R.id.profile_designation;
-      TextView profileDesignation = ViewBindings.findChildViewById(rootView, id);
-      if (profileDesignation == null) {
+      id = R.id.id;
+      TextView id_ = ViewBindings.findChildViewById(rootView, id);
+      if (id_ == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_contactNumber;
+      TextView profileContactNumber = ViewBindings.findChildViewById(rootView, id);
+      if (profileContactNumber == null) {
         break missingId;
       }
 
@@ -113,8 +124,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((LinearLayout) rootView, adminTool, profileContactNumber,
-          profileDesignation, profileEmail, profileOrganization, textView10);
+      return new FragmentProfileBinding((LinearLayout) rootView, adminTool, button, id_,
+          profileContactNumber, profileEmail, profileOrganization, textView10);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

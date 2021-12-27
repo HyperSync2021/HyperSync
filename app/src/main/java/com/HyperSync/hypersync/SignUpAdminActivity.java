@@ -49,11 +49,10 @@ public class SignUpAdminActivity extends AppCompatActivity {
                 String CompAddress = Compaddress.getText().toString();
 
                 FirebaseDatabase hypersync = FirebaseDatabase.getInstance();
-                DatabaseReference ref = hypersync.getReference("Query");
+                DatabaseReference ref = hypersync.getReference("Company");
 
-                Company query = new Company(firstname,lastname,userEmail,userPhone,CompContact,GST,designation,CompAddress);
-
-                ref.child(GST).setValue(query);
+                Company company = new Company(firstname,lastname,userEmail,userPhone,CompContact,GST,designation,CompAddress);
+                ref.push().setValue(company);
                 Toast.makeText(getApplicationContext(), "Thank You, Our team will contact you", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(SignUpAdminActivity.this,Recorded.class);

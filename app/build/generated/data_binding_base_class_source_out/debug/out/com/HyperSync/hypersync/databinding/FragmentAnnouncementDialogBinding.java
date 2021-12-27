@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.HyperSync.hypersync.R;
+import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,20 +21,24 @@ public final class FragmentAnnouncementDialogBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button Discard;
+
+  @NonNull
   public final Button addImage;
 
   @NonNull
-  public final Button pollDiscard;
+  public final TextInputEditText announcement;
 
   @NonNull
-  public final Button postPoll;
+  public final Button post;
 
-  private FragmentAnnouncementDialogBinding(@NonNull LinearLayout rootView,
-      @NonNull Button addImage, @NonNull Button pollDiscard, @NonNull Button postPoll) {
+  private FragmentAnnouncementDialogBinding(@NonNull LinearLayout rootView, @NonNull Button Discard,
+      @NonNull Button addImage, @NonNull TextInputEditText announcement, @NonNull Button post) {
     this.rootView = rootView;
+    this.Discard = Discard;
     this.addImage = addImage;
-    this.pollDiscard = pollDiscard;
-    this.postPoll = postPoll;
+    this.announcement = announcement;
+    this.post = post;
   }
 
   @Override
@@ -63,26 +68,32 @@ public final class FragmentAnnouncementDialogBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Discard;
+      Button Discard = ViewBindings.findChildViewById(rootView, id);
+      if (Discard == null) {
+        break missingId;
+      }
+
       id = R.id.addImage;
       Button addImage = ViewBindings.findChildViewById(rootView, id);
       if (addImage == null) {
         break missingId;
       }
 
-      id = R.id.pollDiscard;
-      Button pollDiscard = ViewBindings.findChildViewById(rootView, id);
-      if (pollDiscard == null) {
+      id = R.id.announcement;
+      TextInputEditText announcement = ViewBindings.findChildViewById(rootView, id);
+      if (announcement == null) {
         break missingId;
       }
 
-      id = R.id.postPoll;
-      Button postPoll = ViewBindings.findChildViewById(rootView, id);
-      if (postPoll == null) {
+      id = R.id.post;
+      Button post = ViewBindings.findChildViewById(rootView, id);
+      if (post == null) {
         break missingId;
       }
 
-      return new FragmentAnnouncementDialogBinding((LinearLayout) rootView, addImage, pollDiscard,
-          postPoll);
+      return new FragmentAnnouncementDialogBinding((LinearLayout) rootView, Discard, addImage,
+          announcement, post);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
