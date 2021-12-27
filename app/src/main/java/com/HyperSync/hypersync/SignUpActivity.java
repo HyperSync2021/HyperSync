@@ -14,6 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.HyperSync.hypersync.model.Worker;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -52,10 +57,10 @@ public class SignUpActivity extends AppCompatActivity {
                 String password = Password.getText().toString();
                 String repassword = RePassword.getText().toString();
                 String b64email = Base64.getEncoder().encodeToString(email.getBytes(StandardCharsets.UTF_8));
+
                 FirebaseDatabase db = FirebaseDatabase.getInstance();
                 DatabaseReference ref = db.getReference("Emails").child(b64email);
-                Email email2 = new Email(email,"44444","ABCDE","true");
-                ref.setValue(email2);
+
 
                 if (password.equals(repassword)) {
 
@@ -63,13 +68,26 @@ public class SignUpActivity extends AppCompatActivity {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists()) {
-                                Email email1 = snapshot.getValue(Email.class);
-                                String company = email1.getCompany();
-                                Intent intent = new Intent(SignUpActivity.this,OTPActivity.class);
-                                intent.putExtra("email",email);
-                                intent.putExtra("password",password);
-                                intent.putExtra("company",company);
-                                startActivity(intent);
+                                Worker worker1 = snapshot.getValue(Worker.class);
+                                FirebaseAuth mauth = FirebaseAuth.getInstance();
+
+                                mauth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(SignUpActivity.this, new OnCompleteListener<AuthResult>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<AuthResult> task) {
+
+                                        if (task.isSuccessful()) {
+                                            Toast.makeText(getApplicationContext(), "Successful", Toast.LENGTH_SHORT).show();
+                                            mauth.getCurrentUser().sendEmailVerification();
+                                            Intent intent = new Intent(SignUpActivity.this,Emailverification.class);
+                                            startActivity(intent);
+
+                                        } else {
+                                            Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
+                                            Intent intent = new Intent(SignUpActivity.this, SignUpActivity.class);
+                                        }
+                                    }
+                                });
+
                             } else {
                                 Toast.makeText(getApplicationContext(), "Your email is not registered with any organisation !", Toast.LENGTH_SHORT).show();
                             }

@@ -12,10 +12,14 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
+import com.HyperSync.hypersync.SignInActivity;
 import com.HyperSync.hypersync.databinding.FragmentProfileBinding;
 import com.HyperSync.hypersync.ui.adminTool.AdminTool;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class ProfileFragment extends Fragment {
 
@@ -23,6 +27,7 @@ public class ProfileFragment extends Fragment {
     private FragmentProfileBinding binding;
 
     TextView textView;
+    Button btn;
 
 
 
@@ -35,11 +40,21 @@ public class ProfileFragment extends Fragment {
         View root = binding.getRoot();
 
         textView = binding.adminTool;
+        btn = binding.button;
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), AdminTool.class);
+                startActivity(intent);
+            }
+        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(getActivity(), SignInActivity.class);
                 startActivity(intent);
             }
         });
